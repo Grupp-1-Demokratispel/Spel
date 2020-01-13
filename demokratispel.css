@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 body {
 }
@@ -17,7 +17,7 @@ nav {
   margin: 0 0 100px 0;
 }
 nav h1 {
-  margin:0;
+  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,70 +27,24 @@ nav h1 {
 }
 main {
   position: relative;
+  margin: 300px;
 }
-.questionpicture {
-  height: 300px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  margin: 0 0 10px 0;
-}
-img {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-}
-.question-box {
-  width: 100%;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-  margin: 0 0 20px 0;
+main > h1 {
   text-align: center;
 }
 .options {
+  padding: 50 px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-.answer {
-  width: 20%;
-  height: 50px;
+.options > button {
+  background-color: #ccc;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
-.answer:hover {
-  background: #ccc;
-  border: 2px solid #ccc;
-  color: white;
-  cursor: pointer;
-}
-
-.site-options {
-  position: relative;
-  height: 50px;
-  padding: 10px 0 10px 0;
-}
-.fa-arrow-circle-left {
-  position: absolute;
-  font-size: 50px;
-  color: blue;
-}
-.fa-times-circle {
-  color: red;
-  position: absolute;
-  font-size: 50px;
-  right: 0;
-}
-.fa-arrow-circle-left:hover {
-  color: rgba(204, 204, 204, 0.521);
-  cursor: pointer;
-}
-.fa-times-circle:hover {
-  color: rgba(204, 204, 204, 0.521);
-  cursor: pointer;
-}
-
 
 /* FOOTER */
 
@@ -99,6 +53,6 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 120px;
+  height: 10vh;
   background: black;
 }
