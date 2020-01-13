@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+body {
+}
+#mainwrapper {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: black;
+  margin: 0 0 100px 0;
+}
+nav h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+}
+main {
+  position: relative;
+  margin: 300px;
+}
+main > h1 {
+  text-align: center;
+}
+.options {
+  padding: 50 px;
+  display: flex;
+  justify-content: center;
+}
+.options > button {
+  background-color: #ccc;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* FOOTER */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: black;
+}
