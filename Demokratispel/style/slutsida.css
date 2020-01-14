@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background: url(valsedlar2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrapper {
+    padding-bottom: 10vh;
+}
+header {
+    background: black;
+    height: 10vh;
+    margin: auto;
+    color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75em;
+    font-variant: small-caps;
+}
+
+main{
+    background: white;
+    min-height: 80vh;
+    margin: auto;
+    max-width: 800px;
+    
+}
+
+section {
+    padding: 35px 0px;
+    min-height: 80vh;
+}
+
+.score {
+    width:300px;
+    height: 150px;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    margin: auto;
+    background:#f8f8f8;
+    text-align: center;
+}
+
+.average {
+    width:300px;
+    height: 150px;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    margin: 35px auto;
+    background:#f8f8f8;
+    text-align: center;
+}
+
+.score h1 {
+    font-size: 36px;
+    font-variant: small-caps;
+    margin: 5px;
+}
+
+.score p {
+    font-size: 48px;
+    margin: 0px;
+}
+.average h1 {
+    font-size: 36px;
+    font-variant: small-caps;
+    margin: 5px;
+}
+
+.average p {
+    font-size: 48px;
+    margin: 0px;
+}
+
+#spela {
+    background: darkgray;
+    border: solid black 2px;
+    border-radius: 5px;
+    color: black;
+    width: 300px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 36px;
+    font-variant: small-caps;
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    min-height: 10vh;
+    background:black;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+footer div {
+    font-size: 48px;
+    display: block;
+}
+
+footer p {
+    margin: 0px;
+}

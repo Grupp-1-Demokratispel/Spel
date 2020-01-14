@@ -55,12 +55,16 @@
     color: blue;
   }
   .fa-arrow-circle-right {
-    color: #ccc;
+    color: green;
     position: absolute;
     font-size: 50px;
     right: 0;
   }
   .fa-arrow-circle-left:hover {
+    color: rgba(204, 204, 204, 0.521);
+    cursor: pointer;
+  }
+  .fa-arrow-circle-right:hover {
     color: rgba(204, 204, 204, 0.521);
     cursor: pointer;
   }
@@ -114,6 +118,22 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+  }
+  .right {
+    /* min-width: 24%; */
+    color: black;
+  text-decoration: none;
+  background: #f8f8f8;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 1px 0px;
+  min-width: 49.8%;
+  height: 44px;
+  font-size: 24px;
+  text-transform: uppercase;
+  background: rgb(1, 212, 1);
 }
   .answer:hover {
     background: #ccc;

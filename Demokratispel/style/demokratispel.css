@@ -1,58 +1,154 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Oswald', sans-serif;
 }
+
 body {
-}
-#mainwrapper {
-  display: flex;
-  justify-content: center;
-}
-nav {
+  background: url(/images/puzzel.jpg);
+  background-position: center;
+  background-size: cover;
   position: relative;
-  width: 100%;
-  height: 80px;
+  min-height: 100vh;
+}
+
+#content-wrapper {
+  padding-bottom: 10vh;
+}
+header {
   background: black;
-  margin: 0 0 100px 0;
-}
-nav h1 {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  height: 10vh;
+  margin: auto;
   color: white;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75em;
+  font-variant: small-caps;
 }
-main {
-  position: relative;
-  margin: 300px;
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: white;
+  min-height: 80vh;
+  margin: auto;
+  max-width: 800px;
 }
-main > h1 {
+#diff {
   text-align: center;
+  margin-bottom: 10px;
+}
+.maininmain{
+  text-align: center;
+}
+section {
+  padding: 35px 0px;
+  min-height: 80vh;
+}
+
+.score {
+  width:300px;
+  height: 150px;
+  border: solid 2px #ccc;
+  border-radius: 5px;
+  margin: auto;
+  background:#f8f8f8;
+  text-align: center;
+}
+
+.average {
+  width:300px;
+  height: 150px;
+  border: solid 2px #ccc;
+  border-radius: 5px;
+  margin: 35px auto;
+  background:#f8f8f8;
+  text-align: center;
+}
+
+.score h1 {
+  font-size: 36px;
+  font-variant: small-caps;
+  margin: 5px;
+}
+
+.score p {
+  font-size: 48px;
+  margin: 0px;
+}
+.average h1 {
+  font-size: 36px;
+  font-variant: small-caps;
+  margin: 5px;
+}
+
+.average p {
+  font-size: 48px;
+  margin: 0px;
+}
+
+#spela {
+  background: darkgray;
+  border: solid black 2px;
+  border-radius: 5px;
+  color: black;
+  width: 300px;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 36px;
+  font-variant: small-caps;
+  display: block;
+  text-align: center;
+  margin: auto;
+  
 }
 .options {
   padding: 50 px;
   display: flex;
   justify-content: center;
+  margin-top: %;
 }
-.options > button {
-  background-color: #ccc;
+.options > .button {
+  text-decoration: none;
+  background-color: #f8f8f8;
   width: 100px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  border: 2px solid #ccc;
+  color: black;
+}
+.button:hover {
+  background: #ccc;
+  color: white;
 }
 
-/* FOOTER */
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: absolute;
   width: 100%;
-  height: 10vh;
-  background: black;
+  bottom: 0;
+  display: flex;
+  min-height: 10vh;
+  background:black;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  
 }
+
+footer div {
+  font-size: 48px;
+  display: block;
+}
+
+footer p {
+  margin: 0px;
+}
+
