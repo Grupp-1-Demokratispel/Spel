@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  background: url(puzzel.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrapper {
+  padding-bottom: 10vh;
+}
+
+header {
+  background: black;
+  height: 10vh;
+  margin: auto;
+  color: white;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+}
+
+.questionnr{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+  .site-options {
+  position: relative;
+  height: 50px;
+  padding: 10px 0 10px 0;
+}
+.fa-arrow-circle-left {
+  position: absolute;
+  font-size: 50px;
+  color: blue;
+}
+.fa-times-circle {
+  color: red;
+  position: absolute;
+  font-size: 50px;
+  right: 0;
+}
+.fa-arrow-circle-left:hover {
+  color: rgba(204, 204, 204, 0.521);
+  cursor: pointer;
+}
+.fa-times-circle:hover {
+  color: rgba(204, 204, 204, 0.521);
+  cursor: pointer;
+}
+.questionpicture {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin: 0 0 10px 0;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+/* img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} */
+.question-box {
+  width: 100%;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 20px;
+  resize: none;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.answer {
+  /* min-width: 24%; */
+  justify-content: space-between;
+  margin: 1px 0px;
+  min-width: 49.8%;
+  height: 44px;
+  font-size: 24px;
+  text-transform: uppercase;
+  
+}
+.answer:hover {
+  background: #ccc;
+  border: 2px solid #ccc;
+  color: white;
+  cursor: pointer;
+}
+
+/* FOOTER */
+  footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    min-height: 10vh;
+    background:black;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+footer div {
+    font-size: 48px;
+    margin: -10px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+/* @media only screen and (max-width: 769px) {
+  .options {
+    display: flex;
+    flex-wrap: wrap ;
+  }  
+
+  .answer {
+    min-width: 49%;
+    justify-content: space-between;
+    margin: 5px 0px;
+  }
+} */
+
+
