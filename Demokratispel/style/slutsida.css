@@ -16,6 +16,13 @@ body {
 #content-wrapper {
   padding-bottom: 10vh;
 }
+.logo{
+  margin: 10px;
+}
+.headers {
+  display: flex;
+  justify-content: space-evenly;
+}
 header {
   background: black;
   height: 10vh;
