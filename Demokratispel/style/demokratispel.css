@@ -45,7 +45,7 @@ main{
   background: white;
   min-height: 80vh;
   margin: auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 #diff {
   text-align: center;
